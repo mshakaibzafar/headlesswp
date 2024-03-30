@@ -1,0 +1,31 @@
+.blog-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-detail header {
+    margin-bottom: 20px;
+  }
+  
+  .blog-detail header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-detail header .blog-date {
+    color: #666;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-detail .blog-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-detail .blog-content {
+    line-height: 1.6;
+  }
+  

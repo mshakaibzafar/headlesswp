@@ -1,0 +1,40 @@
+/* blogStyles.css */
+
+/* Container styling */
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Blog card styling */
+  .blog-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .blog-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .blog-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card p {
+    color: #666666;
+  }
+  
+  /* Grid layout */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
