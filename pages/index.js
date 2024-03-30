@@ -3,6 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link'; // Import Link from Next.js
 import './blogStyles.css'; // Import CSS file
+// pages/index.js
+
+import Head from 'next/head'
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
