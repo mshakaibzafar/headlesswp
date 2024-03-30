@@ -6,40 +6,39 @@ import styles from './Navbar.module.css'; // Import CSS file for styling
 const Navbar = () => {
     return (
         <nav className={styles.navbar}>
+            <div className={styles.navBarContainer}>
             <div className={styles.logo}>
-                <Link href="/">
-                    <img src="/logo.png" alt="Logo" />
+                <Link href="/" className={styles.navbarLogo}>
+                    <div className={styles.navbarText}>M Shakaib Zafar</div>
                 </Link>
             </div>
             <div className={styles.menu}>
                 <ul>
                     <li>
-                        <Link href="/consulting">Consulting</Link>
+                        <Link href="/software">About Me</Link>
                     </li>
                     <li>
-                        <Link href="/software">Software</Link>
+                        <Link href="/pricing">Services</Link>
                     </li>
                     <li>
-                        <Link href="/pricing">Pricing</Link>
+                        <Link href="/haccp">Portfolio</Link>
                     </li>
                     <li>
-                        <Link href="/haccp">HACCP</Link>
+                        <Link href="/resources">Testimonials</Link>
                     </li>
                     <li>
-                        <Link href="/resources">Resources</Link>
-                    </li>
-                    <li>
-                        <Link href="/customers">Customers</Link>
+                        <Link href="/blog">Blogs</Link>
                     </li>
                 </ul>
             </div>
             <div className={styles.buttons}>
-                <button className={styles.loginButton}>
-                    <Link href="/login">Login</Link>
+                <button>
+                    <Link href="https://www.upwork.com/freelancers/mshakaibzafar">Hire Me</Link>
                 </button>
-                <button className={styles.demoButton}>
-                    <Link href="/demo">Get a Demo</Link>
+                <button>
+                    <Link href="https://www.upwork.com/services/product/development-it-m-shakaib-1485608116394450944?ref=project_share">Book a Consultation</Link>
                 </button>
+            </div>
             </div>
         </nav>
     );
